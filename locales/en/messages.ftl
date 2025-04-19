@@ -17,9 +17,6 @@ help = 😍 <b>{ $name }, commands:
         🎲 /dice | <code>dice</code> ❯ roll the dice
         🏆 /top | <code>top</code> ❯ user ranking
 
-        🔗 Project link: <a href='https://github.com/Th3Kanashii/telegram-anonymous-chat-bot'>🐙 GitHub</a>
-        ❤️ Support the project: <a href='https://buymeacoffee.com/Th3Kanashii'>☕ BuyMeACoffee</a>, <a href='https://ko-fi.com/Th3Kanashii'>🎁 Ko-Fi</a></b>
-
 language = 🌐 <b>{ $name }, what language would you like me to speak?</b>
 
 profile = 👤 <b>{ $name }, <u>Your</u> profile:
@@ -78,14 +75,14 @@ companion-leave = 🕊 <b>Your conversation partner left the chat!
                   🔍 Searching for <u>you</u> a new conversation partner...</b>
 
 not-enough-balance = 😔 <b>{ $name }, insufficient cookies
-                     💸 Needed: 999 cookies
+                     💸 Needed: 10 cookies
                      🍪 Balance: { $balance } cookies
 
                      🎲 Play dice (/dice) to earn cookies</b> 🍪
 
 chans-info =
     { NUMBER($chan) ->
-        [0] <b>Hello, my darling! 💖🌟 I'm Orumiru, your unique companion in the world of refined emotions and elegant passion. My lips promise sweet moments, and my expressive eyes will take you beyond the ordinary. Ready to experience the heat of our shared adventures? 💋✨ Let's embark on a journey of unforgettable experiences together! #OrumiruChan #EmotionalElevation #SharedPath</b>
-        [1] <b>Hello, my enchanter! 💫💋 I'm Neko, your mysterious companion in the world of secrets and open allure. My fiery eyes will tell you many stories, and my grace will enchant your heart. Ready to delve into a world of mysteries and unforgettable experiences? 🔥💖 Let's deepen the charms together! #NekoChan #MysteriousGrace #SharedAdventures</b>
-        *[other] <b>Hello, my sweetie! 💋🌟 I'm Kuro, your special magic in the world of the finest delights. My eyes sparkle, awaiting you, and fragments of my smile will lead you to the edge of exquisite pleasure. Let's make every moment together special, filled with magic and tenderness. 💖✨ Ready to take my hand and embark on a journey of unforgettable experiences? 🔥🌹 #KuroChan #YourSweetPleasure #SharedJourney</b>
+        [0] <b>Hello, my darling! 💖🌟 I'm { $name }!, your unique companion in the world of refined emotions and elegant passion. My lips promise sweet moments, and my expressive eyes will take you beyond the ordinary. Ready to experience the heat of our shared adventures? 💋✨ Let's embark on a journey of unforgettable experiences together! #OrumiruChan #EmotionalElevation #SharedPath</b>
+        [1] <b>Hello, my enchanter! 💫💋 I'm { $name }!, your mysterious companion in the world of secrets and open allure. My fiery eyes will tell you many stories, and my grace will enchant your heart. Ready to delve into a world of mysteries and unforgettable experiences? 🔥💖 Let's deepen the charms together! #NekoChan #MysteriousGrace #SharedAdventures</b>
+        *[other] <b>Hello, my sweetie! 💋🌟 I'm { $name }!, your special magic in the world of the finest delights. My eyes sparkle, awaiting you, and fragments of my smile will lead you to the edge of exquisite pleasure. Let's make every moment together special, filled with magic and tenderness. 💖✨ Ready to take my hand and embark on a journey of unforgettable experiences? 🔥🌹 #KuroChan #YourSweetPleasure #SharedJourney</b>
     }
