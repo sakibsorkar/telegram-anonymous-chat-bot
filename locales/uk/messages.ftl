@@ -17,8 +17,6 @@ help = 😍 <b>{ $name }, команди:
         🎲 /dice | <code>кубики</code> ❯ кинути кубик
         🏆 /top | <code>топ</code> ❯ рейтинг користувачів
 
-        🔗 Посилання на проєкт: <a href='https://github.com/Th3Kanashii/telegram-anonymous-chat-bot'>🐙 GitHub</a>
-        ❤️ Підтримати проєкт: <a href='https://buymeacoffee.com/Th3Kanashii'>☕ BuyMeACoffee</a>, <a href='https://ko-fi.com/Th3Kanashii'>🎁 Ko-Fi</a></b>
 
 language = 🌐 <b>{ $name }, якою мовою ти хочеш, щоб я говорив?</b>
 
