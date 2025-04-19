@@ -13,7 +13,7 @@ if TYPE_CHECKING:
 
     from bot.services.database import DBUser, UoW
 
-CHAN_PRICE: Final[int] = 999
+CHAN_PRICE: Final[int] = 10
 
 flags: Final[dict[str, str]] = {"throttling_key": "default"}
 router: Final[Router] = Router(name=__name__)
